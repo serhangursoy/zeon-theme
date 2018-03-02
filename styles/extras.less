@@ -1,0 +1,152 @@
+
+@import "stylesheets/font-awesome";
+@import "stylesheets/font-awesome-regular";
+
+.tab:hover,
+.tab:focus {
+  background: #FF5F6D;  /* fallback for old browsers */
+font-weight: bold;
+color: white;
+}
+
+
+.atom-dock-content-wrapper> .panes> .pane > .list-inline.tab-bar {
+  background: #FFC371;
+  border: none;
+}
+
+.atom-dock-content-wrapper> .panes> .pane >.list-inline> .tab.sortable {
+  border: none;
+}
+.atom-dock-content-wrapper> .panes> .pane > .list-inline.tab-bar.inset-panel>.active.right-clicked {
+  border: none;
+}
+
+.icon-file-directory::before {
+  font-family: FontAwesome;
+  content: @fa-var-folder;
+}
+
+.icon-file-text::before {
+  font-family: FontAwesome;
+  content: @fa-var-file-text;
+  color: rgba(240,240,240,0.9);
+  width: 8%;
+}
+
+.icon-repo::before {
+  font-family: FontAwesome;
+  content: @fa-var-archive;
+}
+::-webkit-scrollbar {
+    width: 4px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    background: #888;
+}
+/* Handle */
+::-webkit-scrollbar-thumb {
+
+    background: #232526;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to bottom, #414345, #232526);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to bottom, #414345, #232526); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #FFC371;
+}
+
+atom-pane-container atom-pane .item-views .pane-item {
+  background: #000000;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to bottom, #434343, #000000);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to bottom, #434343, #000000); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+.settings-view .settings-panel label {
+    color: white;
+}
+
+
+.selected > .name.icon::before {
+  transition: width 0.2s ease-out;
+}
+.selected > .name.icon::before {
+  color: white;
+  width: 12%;
+}
+.settings-view .setting-description {
+    color: #c4c4c4;
+    -webkit-user-select: none;
+    cursor: default;
+    font-style: italic;
+}
+atom-text-editor[mini] .placeholder-text {
+    color: white;
+}
+a.icon {
+  color: white;
+}
+
+.settings-view .config-menu {
+  background: #000000;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to bottom, #434343, #000000);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to bottom, #434343, #000000); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+border: none;
+}
+
+.settings-view select.form-control {
+    color: #e1e1e1;
+    border-color: #ffc07e;
+    background-color: #464646;
+}
+
+.settings-view .package-card {
+    padding: 15px;
+    margin-bottom: 10px;
+    list-style-type: none;
+    font-size: 1.2em;
+    border-radius: 10px;
+    border: 1px solid #ffc56d;
+    background-color: rgba(103, 103, 103, 0.28);
+    overflow: hidden;
+    cursor: pointer;
+    -webkit-user-select: none;
+}
+
+.tab-bar .tab.modified:not(:hover) .close-icon {
+border-color: #00c6ff;
+border-width: 3px;
+width: 7%;
+height: 25%;
+margin-top: -5px;
+}
+
+.tooltip-inner {
+background: #00F260; /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+color: white;
+text-shadow: 1px 1px 2px black;
+}
+
+.tooltip-arrow {
+  background: none;
+  border-bottom-color: #00F260 !important;
+}
+
+.tab-bar .tab .close-icon::before {
+  font-family: FontAwesome;
+  content: @fa-var-times-circle;
+}
+atom-workspace atom-workspace-axis.vertical {
+  font-family: 'Poppins', sans-serif !important;
+}
+
+.tab-bar .tab.active .close-icon:hover {
+  color: rgba(240,50,50,1);
+}
+
+.tool-panel .panel-bottom .bottom {
+  background: #FF5F6D;
+}
