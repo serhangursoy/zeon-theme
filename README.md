@@ -1,17 +1,17 @@
 # Zeon UI Theme
 
-This is an __elegant theme__ who loves gradients with stylish look.
+This is an __elegant theme__ for whom loves gradients with stylish look.
 
-This theme includes font changes and icon changes at __minimum__ However I am always happy to tweak my settings according to community's opinions. So if you have any suggestions, just shot it!.
+This theme includes font changes and icon changes at __minimum level__.
+However I am always open to tweak my settings according to community's opinions. So if you have any suggestions, just shoot it!.
 Would be glad to know if I inspire anyone. Therefore, you can contact to me as well.
 
-Happy coding! 🚀
-
+Happy coding! ⚛🚀⚛
 
 ## Installing
 
-1. Settings -> Install -> Search -> Zeon UI.
-2. Now go and select Zeon.
+1. Settings -> Install -> Search (Select Themes Tab) -> Zeon ui.
+2. Press Install.
 
 If you get stuck somewhere, feel free to create an issue.
 
