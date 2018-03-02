@@ -23,4 +23,6 @@ I'm using Atom Material Dark for __Syntax__. However, I'm planning to make a syn
 ## Screenshot
 No one likes to download things without seeing them, so.. here it is!
 
-![ScreenOne](https://cloud.githubusercontent.com/assets/378023/8842525/4215f26c-3136-11e5-9d94-d2c078a05d24.png)
+![ScreenOne](http://tw.greywool.com/i/jriR9.png)
+![ScrennTwo](http://tw.greywool.com/i/rm8SO.png)
+![ScreenThree](http://tw.greywool.com/i/sqIag.png)
