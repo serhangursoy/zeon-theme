@@ -7,7 +7,7 @@
     "ui",
     "theme"
   ],
-  "repository": "",
+  "repository": "https://github.com/serhangursoy/zeon-theme",
   "license": "MIT",
   "engines": {
     "atom": ">=1.0.0 <2.0.0"
